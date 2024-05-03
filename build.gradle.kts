@@ -30,6 +30,8 @@ dependencies {
     implementation("com.github.briandilley.jsonrpc4j:jsonrpc4j:1.6")
     // https://mvnrepository.com/artifact/javax.jws/javax.jws-api
     implementation("javax.jws:javax.jws-api:1.1")
+// https://mvnrepository.com/artifact/com.opencsv/opencsv
+    implementation("com.opencsv:opencsv:5.9")
 
 
 }
