@@ -9,6 +9,6 @@ import org.springframework.stereotype.Service
 @Service
 class TestServiceImpl : TestService {
     override fun get(id: String): JsonNode {
-        return ObjectMapper().readTree("{\"right\":{\"name\":\"mabel\"}}")
+        return ObjectMapper().readTree("{\"right\":{\"name\":\"mabel\", \"id\":\"1\"}}")
     }
 }

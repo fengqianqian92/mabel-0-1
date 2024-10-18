@@ -1,5 +1,10 @@
 package com.mabel.jsonrpc.service
 
+data class Person0(
+    val name: String,
+    val id: String,
+)
+
 data class Person(
     val name: String
 )
